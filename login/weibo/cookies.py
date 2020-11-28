@@ -235,5 +235,5 @@ if __name__ == '__main__':
     browser = webdriver.Chrome(
         executable_path='C:\\Users\\Alvis\\AppData\\Local\\Google\\Chrome\\Application\\chromedriver.exe',
         chrome_options=option)
-    result = WeiboCookies('17365017932', 'WANQXQY45032544!',browser).main()
+    result = WeiboCookies('Your account', 'Your password',browser).main()
     print(result)
